@@ -1,6 +1,7 @@
 const menu = document.querySelector(".menu")
 const abrir = document.querySelector(".aRefs")
 const close = document.querySelector(".closeIcon")
+const container = document.querySelector(".menu")
 
 const estado = "off"
 

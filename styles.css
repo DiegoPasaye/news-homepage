@@ -232,6 +232,7 @@ a{
         width: 15%;
         margin-left: 80%;
         margin-top: 5%;
+        margin-right: 10%;
     }
     .aRefsMobile{
         margin-top: 20%;
@@ -246,20 +247,17 @@ a{
     }
     a{
         color: black;
-        margin-left: 30%;
+        margin-left: 20%;
     }
     a:link{
         text-decoration: none;
     }
-    html:not(.menu, .aRefsMobile){
-        filter: opacity(50%);
-        filter: contrast(50%);
-        filter: grayscale(50%);
-        
-    }
     .menu{
         background: white;
         display: none;
+    }
+    .top3{
+        padding-bottom: 5vw;
     }
 }
 .aparecer{
